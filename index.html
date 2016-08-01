@@ -1,0 +1,48 @@
+<html>
+<head>
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body id="demo"><center>
+  <div class="side">
+    <img id="myImage" src="off.gif"><br><br>
+    <input type="button" value="on" id="ch" onclick="changeImage();hideshowa(document.getElementById('hide'));hidec(document.getElementById('para'))">
+    <input type="button" value="off" id="ch" onClick="changeImagea();hideshowb(document.getElementById('hide'));hided(document.getElementById('para'))">
+</div>
+  <div class="cal" id="para" style="display:none;"><h1>Calculator</h1></div>
+  <div class="cal" id="hide" style="display:none;">
+    <form Name="calc">
+<input id="display" name="display" type="text" width="380" height="50" style="background-color:gray" ><br>
+<table>
+  <tr>
+<td><input type=button value="1" OnClick="calc.display.value+='1'" onmouseover="higha()" onmouseout="norma()" id="a" ></td>
+<td><input type=button value="2" OnClick="calc.display.value+='2'" onmouseover="highb()" onmouseout="normb()" id="b"></td>
+<td><input type=button value="3" OnClick="calc.display.value+='3'" onmouseover="highc()" onmouseout="normc()" id="c"></td>
+<td><input type=button value="+" OnClick="calc.display.value+='+'" onmouseover="highd()" onmouseout="normd()" id="d"></td>
+</tr>
+<tr>
+<td><input type=button value="4" OnClick="calc.display.value+='4'" onmouseover="highp()" onmouseout="normp()" id="p"></td>
+<td><input type=button value="5" OnClick="calc.display.value+='5'" onmouseover="highe()" onmouseout="norme()" id="e"></td>
+<td><input type=button value="6" OnClick="calc.display.value+='6'" onmouseover="highf()" onmouseout="normf()" id="f"></td>
+<td><input type=button value="-" OnClick="calc.display.value+='-'" onmouseover="highg()" onmouseout="normg()" id="g"></td>
+</tr>
+<tr>
+<td><input type=button value="7" OnClick="calc.display.value+='7'" onmouseover="highh()" onmouseout="normh()" id="h"></td>
+<td><input type=button value="8" OnClick="calc.display.value+='8'" onmouseover="highi()" onmouseout="normi()" id="i"></td>
+<td><input type=button value="9" OnClick="calc.display.value+='9'" onmouseover="highj()" onmouseout="normj()" id="j"></td>
+<td><input type=button value="x" OnClick="calc.display.value+='*'" onmouseover="highk()" onmouseout="normk()" id="k"></td>
+</tr>
+<tr>
+<td><input type=button value="C" OnClick="calc.display.value+=''" onmouseover="highl()" onmouseout="norml()" id="l"></td>
+<td><input type=button value="0" OnClick="calc.display.value='0'" onmouseover="highm()" onmouseout="normm()" id="m"></td>
+<td><input type=button value="=" OnClick="calc.display.value=eval(calc.display.value)" onmouseover="highn()" onmouseout="normn()" id="n"></td>
+<td><input type=button value="/" OnClick="calc.display.value+='/'" onmouseover="higho()" onmouseout="normo()" id="o"></td>
+</tr>
+</table></form>
+</div>
+<script src="myscript2.js"></script>
+<div class="footer">
+<h3>Created by <a href="http://www.facebook.com/trinath.inturi.75">Trinath Reddy Inturi</a>&copy; reserved</h3>
+</div></center>
+
+</body>
